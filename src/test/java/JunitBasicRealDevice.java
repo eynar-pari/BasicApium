@@ -44,7 +44,6 @@ public class JunitBasicRealDevice {
         el.click();
         WebElement name = driver.findElement(By.id("com.example.android.contactmanager:id/contactNameEditText"));
         name.sendKeys("Eynar Pari");
-
         WebElement email = driver.findElement(By.id("com.example.android.contactmanager:id/contactEmailEditText"));
         email.sendKeys("eynar.pari@example.com");
 
